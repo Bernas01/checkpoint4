@@ -1,0 +1,22 @@
+id,nome,x,y,pessoas,prioridade,demanda,beneficio,tipo
+0,Centro de Distribuição,50.0,50.0,0,1,0,0,centro
+1,Vila Esperança,12.9,64.4,581,2,21,87,atendimento
+2,Jardim das Águas,33.7,62.9,117,2,11,18,atendimento
+3,Morro Alto,67.1,25.6,123,3,7,25,atendimento
+4,Baixada Sul,13.8,91.3,703,2,19,105,atendimento
+5,Vale Verde,52.4,70.5,977,2,25,147,atendimento
+6,Parque Ribeirinho,42.4,29.5,1332,3,45,266,atendimento
+7,Centro Velho,59.8,44.0,1289,1,33,129,atendimento
+8,Vila Operária,70.3,93.1,1388,1,36,139,atendimento
+9,Jardim Primavera,27.5,49.9,1491,1,39,149,atendimento
+10,Alto da Serra,41.9,44.1,386,1,21,39,atendimento
+11,Ponte Nova,51.8,31.1,217,1,5,22,atendimento
+12,Barra Funda,70.1,53.3,1436,5,42,574,atendimento
+13,Capão Seco,36.1,7.3,1003,3,35,201,atendimento
+14,Recanto dos Rios,54.4,3.4,1174,4,33,352,atendimento
+15,Vila Nova,21.9,33.4,728,5,21,291,atendimento
+16,Campo Limpo,5.8,21.8,591,2,22,89,atendimento
+17,Várzea Grande,86.4,38.9,190,3,8,38,atendimento
+18,Lagoa Azul,72.4,77.4,1045,5,31,418,atendimento
+19,Encosta Norte,81.4,14.4,114,2,5,17,atendimento
+20,Porto Velho,41.8,88.1,525,3,22,105,atendimento
