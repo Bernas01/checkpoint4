@@ -1,0 +1,256 @@
+{
+  "seed": 564360,
+  "V": 21,
+  "E": 42,
+  "bloqueadas": 6,
+  "N_candidatas": 20,
+  "capacidade": 216,
+  "demanda_total": 481,
+  "guloso": {
+    "ordem": [
+      12,
+      18,
+      15,
+      14,
+      13,
+      6,
+      11
+    ],
+    "beneficio": 2124,
+    "carga": 212,
+    "distancia_km": 311.5,
+    "passos": [
+      {
+        "escolhido": 12,
+        "score": 8.495084399925801,
+        "distancia": 27.2,
+        "capacidade_restante": 216,
+        "alternativas_viaveis": 20
+      },
+      {
+        "escolhido": 18,
+        "score": 8.221333990702917,
+        "distancia": 28.6,
+        "capacidade_restante": 174,
+        "alternativas_viaveis": 19
+      },
+      {
+        "escolhido": 15,
+        "score": 4.303149449938441,
+        "distancia": 99.2,
+        "capacidade_restante": 143,
+        "alternativas_viaveis": 18
+      },
+      {
+        "escolhido": 14,
+        "score": 4.3216056099625195,
+        "distancia": 65.6,
+        "capacidade_restante": 122,
+        "alternativas_viaveis": 17
+      },
+      {
+        "escolhido": 13,
+        "score": 3.997987802163558,
+        "distancia": 19.5,
+        "capacidade_restante": 89,
+        "alternativas_viaveis": 16
+      },
+      {
+        "escolhido": 6,
+        "score": 3.6238809610928167,
+        "distancia": 28.2,
+        "capacidade_restante": 54,
+        "alternativas_viaveis": 15
+      },
+      {
+        "escolhido": 11,
+        "score": 3.4684544812985183,
+        "distancia": 12.0,
+        "capacidade_restante": 9,
+        "alternativas_viaveis": 4
+      }
+    ]
+  },
+  "guloso_densidade": {
+    "ordem": [
+      15,
+      12,
+      18,
+      14,
+      6,
+      5,
+      4
+    ],
+    "beneficio": 2153,
+    "carga": 216
+  },
+  "dp": {
+    "selecionados": [
+      4,
+      5,
+      6,
+      12,
+      14,
+      15,
+      18
+    ],
+    "beneficio": 2153,
+    "carga": 216,
+    "rota": [
+      5,
+      18,
+      12,
+      6,
+      15,
+      14,
+      4
+    ],
+    "distancia_km": 426.5,
+    "celulas": 4557
+  },
+  "varredura": [
+    {
+      "capacidade": 24,
+      "dp": 291,
+      "guloso_densidade": 291,
+      "guloso_distancia": 291
+    },
+    {
+      "capacidade": 48,
+      "dp": 596,
+      "guloso_densidade": 438,
+      "guloso_distancia": 596
+    },
+    {
+      "capacidade": 72,
+      "dp": 903,
+      "guloso_densidade": 903,
+      "guloso_distancia": 887
+    },
+    {
+      "capacidade": 96,
+      "dp": 1283,
+      "guloso_densidade": 1283,
+      "guloso_distancia": 1283
+    },
+    {
+      "capacidade": 120,
+      "dp": 1430,
+      "guloso_densidade": 1430,
+      "guloso_distancia": 1385
+    },
+    {
+      "capacidade": 144,
+      "dp": 1699,
+      "guloso_densidade": 1695,
+      "guloso_distancia": 1699
+    },
+    {
+      "capacidade": 168,
+      "dp": 1858,
+      "guloso_densidade": 1842,
+      "guloso_distancia": 1858
+    },
+    {
+      "capacidade": 192,
+      "dp": 2006,
+      "guloso_densidade": 2006,
+      "guloso_distancia": 2005
+    },
+    {
+      "capacidade": 216,
+      "dp": 2153,
+      "guloso_densidade": 2153,
+      "guloso_distancia": 2124
+    },
+    {
+      "capacidade": 240,
+      "dp": 2287,
+      "guloso_densidade": 2287,
+      "guloso_distancia": 2271
+    },
+    {
+      "capacidade": 265,
+      "dp": 2414,
+      "guloso_densidade": 2414,
+      "guloso_distancia": 2333
+    },
+    {
+      "capacidade": 289,
+      "dp": 2522,
+      "guloso_densidade": 2519,
+      "guloso_distancia": 2505
+    },
+    {
+      "capacidade": 313,
+      "dp": 2625,
+      "guloso_densidade": 2623,
+      "guloso_distancia": 2610
+    },
+    {
+      "capacidade": 337,
+      "dp": 2720,
+      "guloso_densidade": 2720,
+      "guloso_distancia": 2714
+    },
+    {
+      "capacidade": 361,
+      "dp": 2812,
+      "guloso_densidade": 2755,
+      "guloso_distancia": 2811
+    },
+    {
+      "capacidade": 385,
+      "dp": 2903,
+      "guloso_densidade": 2884,
+      "guloso_distancia": 2901
+    },
+    {
+      "capacidade": 409,
+      "dp": 3000,
+      "guloso_densidade": 2988,
+      "guloso_distancia": 2998
+    },
+    {
+      "capacidade": 433,
+      "dp": 3090,
+      "guloso_densidade": 3044,
+      "guloso_distancia": 3033
+    },
+    {
+      "capacidade": 457,
+      "dp": 3155,
+      "guloso_densidade": 3154,
+      "guloso_distancia": 3154
+    },
+    {
+      "capacidade": 481,
+      "dp": 3211,
+      "guloso_densidade": 3211,
+      "guloso_distancia": 3211
+    }
+  ],
+  "varredura_resumo": {
+    "total": 20,
+    "densidade_otimo": 10,
+    "distancia_otimo": 6,
+    "pior_gap_densidade_%": 26.5,
+    "pior_gap_distancia_%": 3.4
+  },
+  "contraexemplo": {
+    "guloso": 36,
+    "guloso_ordem": [
+      1
+    ],
+    "dp": 54,
+    "dp_sel": [
+      2,
+      3
+    ]
+  },
+  "caso_guloso_otimo": {
+    "guloso": 150,
+    "dp": 150
+  },
+  "dijkstras_executados": 21
+}

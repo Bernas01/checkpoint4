@@ -1,0 +1,318 @@
+{
+  "seed": 564360,
+  "estruturas": {
+    "observacoes": 1680,
+    "regioes": [
+      "Centro-Oeste",
+      "Nordeste",
+      "Norte",
+      "Sudeste",
+      "Sul"
+    ],
+    "consumo_por_regiao_MWh": {
+      "Centro-Oeste": 269501,
+      "Nordeste": 472611,
+      "Norte": 216727,
+      "Sudeste": 1344134,
+      "Sul": 525169
+    },
+    "consumo_medio_por_hora": {
+      "0": 1744.0,
+      "1": 1658.1,
+      "2": 1555.1,
+      "3": 1476.6,
+      "4": 1407.2,
+      "5": 1346.9,
+      "6": 1297.5,
+      "7": 1290.7,
+      "8": 1302.6,
+      "9": 1351.1,
+      "10": 1399.6,
+      "11": 1459.3,
+      "12": 1569.4,
+      "13": 1650.5,
+      "14": 1751.9,
+      "15": 1826.8,
+      "16": 1918.9,
+      "17": 1958.7,
+      "18": 2180.4,
+      "19": 2196.5,
+      "20": 2161.2,
+      "21": 2143.3,
+      "22": 1916.8,
+      "23": 1838.9
+    },
+    "top5_picos": [
+      [
+        "2026-01-16T18:00:00",
+        "Sudeste",
+        5954.86
+      ],
+      [
+        "2026-01-14T19:00:00",
+        "Sudeste",
+        5946.1
+      ],
+      [
+        "2026-01-16T19:00:00",
+        "Sudeste",
+        5825.35
+      ],
+      [
+        "2026-01-15T19:00:00",
+        "Sudeste",
+        5766.43
+      ],
+      [
+        "2026-01-14T20:00:00",
+        "Sudeste",
+        5722.23
+      ]
+    ],
+    "horas_em_sobrecarga": 84,
+    "periodos_criticos_Sudeste": [
+      [
+        "2026-01-05T19:00:00",
+        "2026-01-05T19:00:00"
+      ],
+      [
+        "2026-01-07T21:00:00",
+        "2026-01-07T21:00:00"
+      ],
+      [
+        "2026-01-08T18:00:00",
+        "2026-01-08T18:00:00"
+      ],
+      [
+        "2026-01-08T21:00:00",
+        "2026-01-08T21:00:00"
+      ],
+      [
+        "2026-01-14T18:00:00",
+        "2026-01-14T20:00:00"
+      ],
+      [
+        "2026-01-15T18:00:00",
+        "2026-01-15T21:00:00"
+      ],
+      [
+        "2026-01-16T18:00:00",
+        "2026-01-16T21:00:00"
+      ],
+      [
+        "2026-01-17T20:00:00",
+        "2026-01-17T20:00:00"
+      ]
+    ]
+  },
+  "por_regiao": {
+    "Centro-Oeste": {
+      "inicio": "2026-01-14T18:00:00",
+      "fim": "2026-01-14T23:00:00",
+      "indices": [
+        234,
+        239
+      ],
+      "criticidade": 185.51,
+      "horas": 6,
+      "fb_igual_dc": true,
+      "ops_fb": 56616,
+      "ops_dc": 3184
+    },
+    "Nordeste": {
+      "inicio": "2026-01-13T17:00:00",
+      "fim": "2026-01-13T23:00:00",
+      "indices": [
+        209,
+        215
+      ],
+      "criticidade": 206.1,
+      "horas": 7,
+      "fb_igual_dc": true,
+      "ops_fb": 56616,
+      "ops_dc": 3184
+    },
+    "Norte": {
+      "inicio": "2026-01-12T16:00:00",
+      "fim": "2026-01-12T21:00:00",
+      "indices": [
+        184,
+        189
+      ],
+      "criticidade": 144.83,
+      "horas": 6,
+      "fb_igual_dc": true,
+      "ops_fb": 56616,
+      "ops_dc": 3184
+    },
+    "Sudeste": {
+      "inicio": "2026-01-16T17:00:00",
+      "fim": "2026-01-16T22:00:00",
+      "indices": [
+        281,
+        286
+      ],
+      "criticidade": 210.9,
+      "horas": 6,
+      "fb_igual_dc": true,
+      "ops_fb": 56616,
+      "ops_dc": 3184
+    },
+    "Sul": {
+      "inicio": "2026-01-15T17:00:00",
+      "fim": "2026-01-15T21:00:00",
+      "indices": [
+        257,
+        261
+      ],
+      "criticidade": 212.52,
+      "horas": 5,
+      "fb_igual_dc": true,
+      "ops_fb": 56616,
+      "ops_dc": 3184
+    }
+  },
+  "regiao_principal": "Sul",
+  "escalabilidade": [
+    {
+      "tempo_s": 0.00045822933333313404,
+      "desvio_s": 1.0540578868528712e-05,
+      "operacoes": 5050,
+      "memoria_pico_kb": 0.25,
+      "soma": 323.033669273609,
+      "algoritmo": "forca_bruta",
+      "n": 100,
+      "tempo_por_n2_ns": 45.8229333333134,
+      "tempo_por_nlogn_ns": 689.7038711319117
+    },
+    {
+      "tempo_s": 0.00019725528571434836,
+      "desvio_s": 1.5990936653736256e-05,
+      "operacoes": 772,
+      "memoria_pico_kb": 0.609375,
+      "soma": 323.033669273609,
+      "algoritmo": "dividir_conquistar",
+      "n": 100,
+      "tempo_por_n2_ns": 19.725528571434836,
+      "tempo_por_nlogn_ns": 296.89878901643834
+    },
+    {
+      "tempo_s": 0.002877560333333603,
+      "desvio_s": 3.7654640407495225e-05,
+      "operacoes": 31375,
+      "memoria_pico_kb": 0.25,
+      "soma": 262.28927596607156,
+      "algoritmo": "forca_bruta",
+      "n": 250,
+      "tempo_por_n2_ns": 46.040965333337645,
+      "tempo_por_nlogn_ns": 1444.9602100695954
+    },
+    {
+      "tempo_s": 0.0004907348571427304,
+      "desvio_s": 1.2287070619378852e-05,
+      "operacoes": 2244,
+      "memoria_pico_kb": 0.6796875,
+      "soma": 262.28927596607156,
+      "algoritmo": "dividir_conquistar",
+      "n": 250,
+      "tempo_por_n2_ns": 7.851757714283687,
+      "tempo_por_nlogn_ns": 246.42136397674125
+    },
+    {
+      "tempo_s": 0.014519830666666659,
+      "desvio_s": 0.0041342847774655045,
+      "operacoes": 125250,
+      "memoria_pico_kb": 0.40234375,
+      "soma": 274.4065610322182,
+      "algoritmo": "forca_bruta",
+      "n": 500,
+      "tempo_por_n2_ns": 58.079322666666634,
+      "tempo_por_nlogn_ns": 3238.9426748769692
+    },
+    {
+      "tempo_s": 0.0010538567142856742,
+      "desvio_s": 2.2151956087127303e-05,
+      "operacoes": 4988,
+      "memoria_pico_kb": 1.71875,
+      "soma": 274.4065610322182,
+      "algoritmo": "dividir_conquistar",
+      "n": 500,
+      "tempo_por_n2_ns": 4.215426857142697,
+      "tempo_por_nlogn_ns": 235.0841110662285
+    },
+    {
+      "tempo_s": 0.04710090533333311,
+      "desvio_s": 0.0014448285844555662,
+      "operacoes": 500500,
+      "memoria_pico_kb": 0.41015625,
+      "soma": 208.29545339689537,
+      "algoritmo": "forca_bruta",
+      "n": 1000,
+      "tempo_por_n2_ns": 47.10090533333311,
+      "tempo_por_nlogn_ns": 4726.261776087618
+    },
+    {
+      "tempo_s": 0.0021670202857144716,
+      "desvio_s": 4.7818063958781124e-05,
+      "operacoes": 10976,
+      "memoria_pico_kb": 2.0390625,
+      "soma": 208.29545339689537,
+      "algoritmo": "dividir_conquistar",
+      "n": 1000,
+      "tempo_por_n2_ns": 2.1670202857144716,
+      "tempo_por_nlogn_ns": 217.4460357374622
+    },
+    {
+      "tempo_s": 0.17378093300000005,
+      "desvio_s": 0.0013754045048215337,
+      "operacoes": 2001000,
+      "memoria_pico_kb": 0.41015625,
+      "soma": 616.3953771577369,
+      "algoritmo": "forca_bruta",
+      "n": 2000,
+      "tempo_por_n2_ns": 43.445233250000015,
+      "tempo_por_nlogn_ns": 7923.78039220909
+    },
+    {
+      "tempo_s": 0.004603941000000182,
+      "desvio_s": 7.779988132579504e-05,
+      "operacoes": 23952,
+      "memoria_pico_kb": 2.140625,
+      "soma": 616.3953771577368,
+      "algoritmo": "dividir_conquistar",
+      "n": 2000,
+      "tempo_por_n2_ns": 1.1509852500000457,
+      "tempo_por_nlogn_ns": 209.92301510251957
+    },
+    {
+      "tempo_s": 1.118708770333333,
+      "desvio_s": 0.02327993163113929,
+      "operacoes": 12502500,
+      "memoria_pico_kb": 0.41015625,
+      "soma": 706.7860050595409,
+      "algoritmo": "forca_bruta",
+      "n": 5000,
+      "tempo_por_n2_ns": 44.74835081333332,
+      "tempo_por_nlogn_ns": 18208.576759905452
+    },
+    {
+      "tempo_s": 0.012187234571429022,
+      "desvio_s": 0.00012926507533542092,
+      "operacoes": 66808,
+      "memoria_pico_kb": 2.53125,
+      "soma": 706.7860050595409,
+      "algoritmo": "dividir_conquistar",
+      "n": 5000,
+      "tempo_por_n2_ns": 0.4874893828571609,
+      "tempo_por_nlogn_ns": 198.36458072883195
+    }
+  ],
+  "extrapolacao_1M": {
+    "n": 1000000,
+    "forca_bruta_s": 44748.35081333332,
+    "dividir_conquistar_s": 3.9537172425219547,
+    "forca_bruta_ops": 500000500000,
+    "dividir_conquistar_ops_aprox": 21931569,
+    "profundidade_recursao": 20
+  }
+}
